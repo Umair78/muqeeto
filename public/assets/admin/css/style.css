@@ -1,0 +1,67 @@
+.dashpad>a{
+	margin: 0.5em!important;
+	padding: 1em!important;
+	padding-top: 3em!important;
+	padding-bottom: 3em!important;
+	width: 45%!important;
+}
+
+.crop-text-1 {
+  -webkit-line-clamp: 1;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.crop-text-2 {
+  -webkit-line-clamp: 2;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.crop-text-3 {
+  -webkit-line-clamp: 3;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.crop-text-4 {
+  -webkit-line-clamp: 4;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+/*th{
+	word-wrap: break-word; word-break: break-all;
+}
+
+td{
+	word-wrap: break-word; 
+	word-break: break-all;
+	overflow-wrap: break-word;
+	white-space: normal;
+}*/
+
+/* http://www.aveva.com/Images/ajax-loader.gif */
+#loader {
+    background: url("../../img/ajax-loader.gif")  no-repeat scroll center center rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: fixed; 
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.hide {
+  display: none;
+}
+
+/*input, textarea, select {
+  text-transform: uppercase !important;
+}*/

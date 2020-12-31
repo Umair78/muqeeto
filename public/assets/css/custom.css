@@ -1,0 +1,110 @@
+.active, .active>.nav-link{
+	border-radius: .25rem;
+	background-color: #fff;
+	color: #ed2f59 !important;
+}
+
+.slider-n5{
+	bottom: 15em;
+}
+.home-tipNews {
+	margin-top: -2em !important;
+}
+
+.home-card{
+	border-bottom: 2px solid #ed2f59;
+	/*width: 15rem !important;*/
+}
+
+.bg-red{
+	background-color: #ed2f59;
+	/*width: 15rem !important;*/
+}
+
+.btn-red{
+	background-color: #ed2f59;
+	color: #fff;
+}
+.btn-red:hover{
+	background-color: #fff;
+	color: #ed2f59;
+}
+
+.btn-white{
+	background-color: #fff;
+	color: #ed2f59;
+}
+.btn-white:hover{
+	border-color: #fff;
+	background-color: #ed2f59;
+	color: #fff;
+}
+.bg-red-blurred {
+	background-color: rgba(237, 47, 89, 0.2);
+	/*color: #fff !important;*/
+}
+.placeholder-white::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #fff;
+	opacity: 1; /* Firefox */
+}
+
+.placeholder-white:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #fff;
+}
+
+.placeholder-white::-ms-input-placeholder { /* Microsoft Edge */
+	color: #fff;
+}
+.text-red {
+	color: #ed2f59;
+}
+
+.team-card{
+	border-radius: 1em 1em 0 0;
+	border-top: 2px solid #ed2f59;
+	/*width: 15rem !important;*/
+}
+
+.team-card > .card-body{
+	border-radius: 0 0 1em 1em;
+	background-color: #ed2f59;
+	color: #fff;
+}
+
+.team-card-alt{
+	border-radius: 1em 1em 1em 1em;
+	border-top: 2px solid #ed2f59;
+	background-color: #ed2f59;
+	/*width: 15rem !important;*/
+}
+
+.team-card-alt > .card-body{
+	border-radius: 0 0 1em 1em;
+	background-color: #ed2f59;
+	color: #fff;
+}
+
+.red-underline {
+	text-decoration: underline;
+	text-decoration-color: #ed2f59;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	.home-slider {
+		/*margin-top: -8em;*/
+	}
+	.home-tipNews {
+		margin-top: -5em !important;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.slider-n5 {
+		bottom: 0em;
+	}
+}
